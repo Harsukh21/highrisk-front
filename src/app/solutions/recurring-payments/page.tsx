@@ -3,7 +3,7 @@ import { Footer } from "@/components/footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { RefreshCw, Calendar, Shield, TrendingUp } from "lucide-react"
+import { RefreshCw, Calendar, TrendingUp } from "lucide-react"
 
 export default function RecurringPaymentsPage() {
   return (

@@ -3,7 +3,7 @@ import { Footer } from "@/components/footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Monitor, CreditCard, Shield, Zap } from "lucide-react"
+import { Monitor, CreditCard, Shield } from "lucide-react"
 
 export default function VirtualTerminalPage() {
   return (
