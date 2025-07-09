@@ -1,0 +1,193 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/industries",
+      "regex": "^/industries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries(?:/)?$"
+    },
+    {
+      "page": "/industries/adult",
+      "regex": "^/industries/adult(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/adult(?:/)?$"
+    },
+    {
+      "page": "/industries/cbd",
+      "regex": "^/industries/cbd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/cbd(?:/)?$"
+    },
+    {
+      "page": "/industries/collection",
+      "regex": "^/industries/collection(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/collection(?:/)?$"
+    },
+    {
+      "page": "/industries/dating",
+      "regex": "^/industries/dating(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/dating(?:/)?$"
+    },
+    {
+      "page": "/industries/firearms",
+      "regex": "^/industries/firearms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/firearms(?:/)?$"
+    },
+    {
+      "page": "/industries/gaming",
+      "regex": "^/industries/gaming(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/gaming(?:/)?$"
+    },
+    {
+      "page": "/industries/skill-based-gaming",
+      "regex": "^/industries/skill\\-based\\-gaming(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/skill\\-based\\-gaming(?:/)?$"
+    },
+    {
+      "page": "/industries/sweepstakes",
+      "regex": "^/industries/sweepstakes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/sweepstakes(?:/)?$"
+    },
+    {
+      "page": "/industries/vape",
+      "regex": "^/industries/vape(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/vape(?:/)?$"
+    },
+    {
+      "page": "/industries/web-design",
+      "regex": "^/industries/web\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/web\\-design(?:/)?$"
+    },
+    {
+      "page": "/resources",
+      "regex": "^/resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources(?:/)?$"
+    },
+    {
+      "page": "/solutions",
+      "regex": "^/solutions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions(?:/)?$"
+    },
+    {
+      "page": "/solutions/3d-secure",
+      "regex": "^/solutions/3d\\-secure(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/3d\\-secure(?:/)?$"
+    },
+    {
+      "page": "/solutions/ach",
+      "regex": "^/solutions/ach(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/ach(?:/)?$"
+    },
+    {
+      "page": "/solutions/b2b-payments",
+      "regex": "^/solutions/b2b\\-payments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/b2b\\-payments(?:/)?$"
+    },
+    {
+      "page": "/solutions/chargeback-protection",
+      "regex": "^/solutions/chargeback\\-protection(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/chargeback\\-protection(?:/)?$"
+    },
+    {
+      "page": "/solutions/fraud-prevention",
+      "regex": "^/solutions/fraud\\-prevention(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/fraud\\-prevention(?:/)?$"
+    },
+    {
+      "page": "/solutions/level-2-3-processing",
+      "regex": "^/solutions/level\\-2\\-3\\-processing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/level\\-2\\-3\\-processing(?:/)?$"
+    },
+    {
+      "page": "/solutions/mobile-payments",
+      "regex": "^/solutions/mobile\\-payments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/mobile\\-payments(?:/)?$"
+    },
+    {
+      "page": "/solutions/payment-gateway",
+      "regex": "^/solutions/payment\\-gateway(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/payment\\-gateway(?:/)?$"
+    },
+    {
+      "page": "/solutions/recurring-payments",
+      "regex": "^/solutions/recurring\\-payments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/recurring\\-payments(?:/)?$"
+    },
+    {
+      "page": "/solutions/virtual-terminal",
+      "regex": "^/solutions/virtual\\-terminal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/virtual\\-terminal(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
